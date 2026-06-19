@@ -1,0 +1,19 @@
+{
+  "_comment": "Copy this file to forge.config.json, edit every value, then run ./setup.sh. Each path is independent — they do NOT have to live under a common root. Use absolute paths or ~ (expanded at setup time). skill_prefix renames the whole skill family (forge-* -> <prefix>-*) and is baked at install; changing it later requires re-running setup.sh. All *_dir / *_path values are read at RUNTIME, so you can edit them in the installed config (~/.config/forge-kit/<prefix>.json) without re-running setup.",
+
+  "skill_prefix": "forge",
+
+  "ideas_dir": "~/forge/01-ideas",
+  "research_dir": "~/forge/02-research",
+  "runs_dir": "~/forge/02-research/_runs",
+  "scored_dir": "~/forge/03-scored",
+  "onepager_dir": "~/forge/04-1pagers",
+  "outputs_dir": "~/forge/05-outputs",
+  "archive_dir": "~/forge/99-archive",
+  "product_vault_dir": "~/products",
+  "workflows_dir": "~/.local/share/forge-kit/workflows",
+
+  "taxonomy_path": "~/forge/taxonomy.md",
+  "scoring_config_path": "~/forge/scoring-config.md",
+  "onepager_template_path": "~/forge/templates/1-pager-template.md"
+}
